@@ -255,18 +255,6 @@ nav ul li a {
 }
 
 
-
-/* About Us Section */
-.about {
-    background: #ff00ea;
-    padding: 50px 0;
-}
-
-.about .about-container{
-    width: 80%;
-    margin: 0 auto;
-}
-
 /* Contact Us Section */
 /*
 .contact {
