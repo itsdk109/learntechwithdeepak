@@ -320,66 +320,87 @@ footer {
     cursor: pointer;
 }
 
-/* MEDIA QUERRY*/
+/* General Reset for Small Screens */
 @media (max-width: 480px) {
-
-    .logo h1 {
+    body {
         margin: 0;
         padding: 0;
-        font-size: 1rem;
-        color: #333;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+        font-size: 0.9rem; /* Slightly reduce font size for better fit */
     }
 
-    nav ul li {
-        margin-left: 20px;
+    .container {
+        width: 100%; /* Use full width of the screen */
+        margin: 0;
+        padding: 0;
     }
 
-    nav ul li a {
-        color: rgb(7, 7, 7);
-        text-decoration: none;
-        font-size: 0.85rem;
+    header {
+        padding: 10px; /* Compact padding for header */
     }
 
-    .cart-icon {
-        background-color: #e74c3c;
-        border-radius: 50%;
-        padding: 10px;
+    .hero {
+        padding: 50px 10px; /* Reduce padding in the hero section */
+    }
+
+    .hero-content {
+        width: 100%; /* Ensure content fits within screen */
     }
 
     .hero h2 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
     }
 
     .hero p {
-        font-size: 1rem;
-        color: #e74c3c;
+        font-size: 1rem; /* Adjust font size */
     }
 
-    #category-menu .menu-container {
-        padding: 10px; /* Adjust padding for smaller screens */
-        text-align: center; /* Center the menu items */
+    #category-menu {
+        padding: 10px 0; /* Compact padding */
     }
 
     #category-menu .category-list {
-        list-style: none; /* Remove bullet points */
-        padding: 0;
-        margin: 0;
+        flex-direction: column; /* Stack categories vertically */
+        align-items: center; /* Center align them */
     }
 
-    #category-menu .category-list li {
-        margin: 10px 0; /* Add spacing between items */
+    .products {
+        padding: 20px 10px; /* Compact padding */
     }
 
-    #category-menu .category-list li a {
-        font-size: 0.9rem; /* Smaller font size for smaller screens */
-        color: #333; /* Consistent text color */
-        text-decoration: none; /* No underline for links */
-        display: block; /* Make links block-level for better clickability */
+    .product {
+        width: 90%; /* Allow products to take up most of the screen */
+        margin-bottom: 20px; /* Space between products */
     }
 
-    #category-menu .category-list li a:hover {
-        color: #e74c3c; /* Change color on hover */
+    footer {
+        padding: 15px; /* Reduce footer padding */
     }
 
+    .pagination-list li {
+        margin: 0 3px; /* Compact spacing for pagination */
+    }
+
+    .about .about-container {
+        width: 100%; /* Full width for smaller screens */
+        padding: 10px; /* Compact padding */
+    }
+
+    /* Remove Excess Space Around Elements */
+    h2, h3, p {
+        margin: 10px 0; /* Compact margins for headings and paragraphs */
+    }
+
+    nav ul {
+        padding: 0; /* Remove padding from navigation */
+        margin: 0; /* Remove margin from navigation */
+    }
+
+    nav ul li {
+        margin: 0 10px; /* Reduce space between menu items */
+    }
+
+    #pagination {
+        padding: 10px 0; /* Compact padding */
+    }
 }
