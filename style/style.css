@@ -356,4 +356,30 @@ footer {
         color: #e74c3c;
     }
 
+    #category-menu .menu-container {
+        padding: 10px; /* Adjust padding for smaller screens */
+        text-align: center; /* Center the menu items */
+    }
+
+    #category-menu .category-list {
+        list-style: none; /* Remove bullet points */
+        padding: 0;
+        margin: 0;
+    }
+
+    #category-menu .category-list li {
+        margin: 10px 0; /* Add spacing between items */
+    }
+
+    #category-menu .category-list li a {
+        font-size: 0.9rem; /* Smaller font size for smaller screens */
+        color: #333; /* Consistent text color */
+        text-decoration: none; /* No underline for links */
+        display: block; /* Make links block-level for better clickability */
+    }
+
+    #category-menu .category-list li a:hover {
+        color: #e74c3c; /* Change color on hover */
+    }
+
 }
