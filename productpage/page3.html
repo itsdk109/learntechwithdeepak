@@ -210,17 +210,23 @@
 
     <!-- Pagination Section -->
     <section id="pagination">
-        <div class="container">
-            <ul class="pagination-list">
-                <li><a href="page2.html" onclick="changePage('prev')">&laquo;</a></li>
-                <li><a href="../index.html" class="page-number " onclick="changePage(1)">1</a></li>
-                <li><a href="/page2.html" class="page-number" onclick="changePage(2)">2</a></li>
-                <li><a href="/page3.html" class="page-number active" onclick="changePage(3)">3</a></li>
-                <li><a href="/page4.html" class="page-number" onclick="changePage(4)">4</a></li>
-                <li><a href="page4.html" onclick="changePage('next')">&raquo;</a></li>
-            </ul>
-        </div>
-    </section>
+    <div class="container">
+        <ul class="pagination-list">
+            <!-- Previous Button -->
+            <li><a href="./page2.html" onclick="changePage('prev')">&laquo;</a></li>
+            
+            <!-- Page Numbers -->
+            <li><a href="./../index.html" class="page-number" onclick="changePage(1)">1</a></li>
+            <li><a href="./page2.html" class="page-number" onclick="changePage(2)">2</a></li>
+            <li><a href="./page3.html" class="page-number active" onclick="changePage(3)">3</a></li>
+            <li><a href="./page4.html" class="page-number" onclick="changePage(4)">4</a></li>
+            
+            <!-- Next Button -->
+            <li><a href="./page4.html" onclick="changePage('next')">&raquo;</a></li>
+        </ul>
+    </div>
+</section>
+
 
     <!-- Footer Section -->
     <footer>
