@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../style/login.css">
+
+</head>
+
+<body>
+    <div id="butterfly-container"></div>
+    <script src="butterfly_effects.js"></script>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../image/logo.png" alt="LEARN TECH WITH DEEPAK Logo" class="logo-img">
+                <h1>LEARN TECH WITH DEEPAK</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="login.html">Sign In</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#cart" class="cart-icon">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="../phpfiles/login.php" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter the email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter the password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign up here</a>.</p>
+    </div>
+
+    <footer>
+        <div class="footer_container">
+            <p>&copy; 2024 LEARN TECH WITH DEEPAK. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61552233911954&mibextid=ZbWKwL"><img
+                        src="../image/facebook.png" alt="Facebook"></a>
+                <a href="https://www.youtube.com/@learntechwithdeepak"><img src="../image/youtube.png"
+                        alt="youtube"></a>
+                <a href="https://www.instagram.com/itsdk_choudhary?igsh=azFiOG10NXdqMXV4"><img
+                        src="../image/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../javascript/index_script.js"></script>
+</body>
+
+</html>

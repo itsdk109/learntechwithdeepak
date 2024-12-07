@@ -1,0 +1,109 @@
+/* purchase.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.checkout-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+}
+
+.checkout-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.checkout-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-container label {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.checkout-container input[type="text"],
+.checkout-container textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.checkout-container input[type="text"]:focus,
+.checkout-container textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.checkout-container textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+.checkout-container h3 {
+    color: #333;
+    margin: 15px 0 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.checkout-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.checkout-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .checkout-container {
+        padding: 10px;
+    }
+
+    .checkout-container h2 {
+        font-size: 18px;
+    }
+
+    .checkout-container h3 {
+        font-size: 16px;
+    }
+
+    .checkout-container button {
+        font-size: 13px;
+        padding: 8px;
+    }
+}
