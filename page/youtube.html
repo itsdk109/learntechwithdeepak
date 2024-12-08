@@ -189,17 +189,23 @@
 
     <!-- Pagination Section -->
     <section id="pagination">
-        <div class="container">
-            <ul class="pagination-list">
-                <li><a href="/page/youtube.html" onclick="changePage('prev')">&laquo;</a></li>
-                <li><a href="/page/youtube.html" class="page-number active" onclick="changePage(1)">1</a></li>
-                <li><a href="/page/youtube2.html" class="page-number" onclick="changePage(2)">2</a></li>
-                <li><a href="/page/youtube3.html" class="page-number" onclick="changePage(3)">3</a></li>
-                <li><a href="/page/youtube4.html" class="page-number" onclick="changePage(4)">4</a></li>
-                <li><a href="/page/youtube2.html" onclick="changePage('next')">&raquo;</a></li>
-            </ul>
-        </div>
-    </section>
+    <div class="container">
+        <ul class="pagination-list">
+            <!-- Previous Button -->
+            <li><a href="./youtube.html" onclick="changePage('prev')">&laquo;</a></li>
+            
+            <!-- Page Numbers -->
+            <li><a href="./youtube.html" class="page-number active" onclick="changePage(1)">1</a></li>
+            <li><a href="./youtube2.html" class="page-number" onclick="changePage(2)">2</a></li>
+            <li><a href="./youtube3.html" class="page-number" onclick="changePage(3)">3</a></li>
+            <li><a href="./youtube4.html" class="page-number" onclick="changePage(4)">4</a></li>
+            
+            <!-- Next Button -->
+            <li><a href="./youtube2.html" onclick="changePage('next')">&raquo;</a></li>
+        </ul>
+    </div>
+</section>
+
 
 
     <!-- Footer Section -->
