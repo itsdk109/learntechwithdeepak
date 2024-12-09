@@ -96,15 +96,6 @@ nav ul li a {
     font-size: 1.1rem;
 }
 
-.cart-icon {
-    background-color: #e74c3c;
-    border-radius: 50%;
-    padding: 10px;
-}
-
-.cart-icon:hover {
-    background-color: #c0392b;
-}
 
 /* Hero Section */
 .hero {
@@ -132,33 +123,33 @@ nav ul li a {
 
 /* Category Menu Section */
 #category-menu {
-    background: #ff00ddbd;
-    padding: 15px 0;
-    gap: 10px;
+    background: #4400ff; /* Menu ka background color */
+    padding: 15px 0; /* Vertical padding */
+    gap: 10px; /* Flex items ke beech gap (agar use ho raha hai) */
 }
 
 .category-list {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    display: flex; /* List ko horizontal banata hai */
+    justify-content: center; /* Items ko center align karta hai */
+    list-style: none; /* Bullets remove karta hai */
+    margin: 0; /* Extra spacing remove karta hai */
+    padding: 0; /* Extra spacing remove karta hai */
 }
 
 .category-list li {
-    margin: 0 15px;
+    margin: 0 15px; /* Har item ke beech horizontal space */
 }
 
 .category-list li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-    transition: color 0.3s;
+    color: rgb(255, 255, 255); /* Text ka white color */
+    text-decoration: none; /* Underline remove karega */
+    font-size: 1.2rem; /* Text size adjust karega */
+    font-weight: bold; /* Text ko bold karega */
+    transition: color 0.3s; /* Smooth hover effect ke liye */
 }
 
 .category-list li a:hover {
-    color: #0167ff;
+    color: #0167ff; /* Hover karte hi color change karega */
 }
 
 
